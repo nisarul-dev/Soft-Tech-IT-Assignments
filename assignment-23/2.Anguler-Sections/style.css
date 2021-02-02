@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+header , footer {
+    height: 300px;
+    background: #f05d5d;
+}
+
+.portfolio-area {
+    height: 300px;
+    background: #3cd896;
+    position: relative;
+}
+
+.portfolio-area:before {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+    border-bottom: 75px solid #3cd896;
+    border-left: 100vw solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+
+.portfolio-area:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+    border-top: 75px solid #3cd896;
+    border-right: 100vw solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}

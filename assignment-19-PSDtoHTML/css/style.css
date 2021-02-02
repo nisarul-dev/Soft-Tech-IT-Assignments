@@ -1,0 +1,536 @@
+/*
+    #1. Header Section
+    #2. Intro Section
+    #3. Catagory Section
+    #4. Tweet Section
+    #5. Portfolio Section
+    #6. Subscribe Section
+    #8. Footer Sections
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+h4 {
+    letter-spacing: 0.125em;
+}
+
+/* ================== #1. Header Section ================== */
+
+header {
+    background: url('../images/header-bg.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 40em;
+}
+
+header .logo-area {
+    display: none;
+}
+
+header nav {
+    padding-top: 3vh;
+}
+
+header nav ul.list-inline li{
+    padding: 1em 1.5em;
+    margin: 0 .5em;
+}  
+
+header nav ul li a {
+    font-weight: bold;
+    color: #4d4959;
+    letter-spacing: 0.125em;
+    transition: 300ms;
+    font-size: 1em;
+}
+
+header nav ul li:hover a {
+    color: #1db77d;
+    font-size: 1.123em;
+}
+   
+/* ================== #2. Intro Section ================== */
+
+.intro-section {
+    background-color: #f7f7f7;
+    padding: 7em 0;
+}
+
+.intro-section h4 {
+    margin: 2.125em 0;
+    color: #353738;
+}
+
+.intro-section p {
+    color: #848789;
+    line-height: 2em;
+}
+
+/* ================== #3. Catagory Section ================== */
+
+.catagory .upper-text {
+    position: relative;
+}
+
+.catagory .upper-text .content {
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    margin-left: -40%;
+    padding-top: 2.5em;
+}
+
+.catagory .content h4 {
+    margin: 1.5em 0 1em 0;
+}
+
+.catagory .content p {
+    line-height: 2em;
+}
+
+.catagory .content hr {
+    border: solid 1px #d7d7d7;
+    width: 4em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.catagory .image img {/* For Angle down on the top of bg-image */
+    padding-bottom: 2em;
+}
+
+/* 1 */
+.catagory .catagory-one .icon {
+    position: relative;
+    background: url('../images/catagory-1-big.jpg') center center no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.catagory .catagory-one .icon img { 
+    position: absolute;
+    top:50%;
+    left: 50%;
+    height: 10em;
+    width: 10em;
+    margin: -5em 0 0 -5em;
+    display: block;
+}
+.catagory .catagory-one .right-area {
+    position: relative;
+    height: 540px;
+}
+.catagory .catagory-one .right-area .image {
+    position: absolute;
+    background: top center no-repeat url('../images/catagory-1-small.jpg');
+    background-size: cover;
+    height: 12.5em;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+/* 2 */
+.catagory .catagory-two .icon {
+    position: relative;
+    background: url('../images/catagory-2-big.jpg') center center no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.catagory .catagory-two .icon img { 
+    position: absolute;
+    top:50%;
+    left: 50%;
+    height: 10em;
+    width: 12em;
+    margin: -5em 0 0 -6em;
+    display: block;
+}
+.catagory .catagory-two .left-area {
+    position: relative;
+    height: 540px;
+}
+.catagory .catagory-two .left-area .image {
+    position: absolute;
+    background: top center no-repeat url('../images/catagory-2-small.jpg');
+    background-size: cover;
+    height: 12.5em;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+/* 3 */
+.catagory .catagory-three .icon {
+    position: relative;
+    background: url('../images/catagory-3-big-left.jpg') center center no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.catagory .catagory-three .icon img { 
+    position: absolute;
+    top:50%;
+    left: 50%;
+    height: 5em;
+    width: 14em;
+    margin: -2.5em 0 0 -7em;
+    display: block;
+}
+.catagory .catagory-three .middle-area {
+    position: relative;
+    height: 540px;
+}
+.catagory .catagory-three .middle-area .image {
+    position: absolute;
+    background: top center no-repeat url('../images/catagory-3-small.jpg');
+    background-size: cover;
+    height: 12.5em;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.catagory .catagory-three .icon-2 {
+    background: url('../images/catagory-3-big-right.jpg') center center no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+
+/* ================== #4. Tweet Section ================== */
+.tweet-section {
+    background-color: #f7f7f7;
+    padding: 10em 0;
+}
+.tweet-section .icon-area i {
+    font-size: 2.25em;
+    color: #56c7ee;
+    margin-bottom: 0.5rem;
+}
+.tweet-section .heading h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.125em;
+    margin-bottom: 1.25rem;
+}
+.tweet-section .heading h3 span {
+    font-weight: lighter;
+}
+.tweet-section .content p {
+    font-style: italic;
+    font-size: 1.75em;
+}
+
+/* ================== #5. Portfolio Section ================== */
+/* #64c29e */
+.portfolio-section .portfolio-area {
+    background-color: gray;
+}
+/* start */
+/* 1 */
+.portfolio-section .portfolio-area .gallary-1 .top .left {
+    background: url('../images/portfolio/1.jpg') center center no-repeat;
+    background-size: cover;
+    height: 15em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-1 .top .left:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/1.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* 2 */
+.portfolio-section .portfolio-area .gallary-1 .top .right {
+    background: url('../images/portfolio/2.jpg') center center no-repeat;
+    background-size: cover;
+    height: 15em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-1 .top .right:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/2.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* 3 */
+.portfolio-section .portfolio-area .gallary-1 .bottom {
+    background: url('../images/portfolio/3.jpg') center center no-repeat;
+    background-size: cover;
+    height: 15em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-1 .bottom:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/3.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* 4 */
+.portfolio-section .portfolio-area .gallary-2 .left {
+    background: url('../images/portfolio/4.jpg') center center no-repeat;
+    background-size: cover;
+    height: 30em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-2 .left:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/4.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* 5 */
+.portfolio-section .portfolio-area .gallary-2 .right {
+    background: url('../images/portfolio/5.jpg') center center no-repeat;
+    background-size: cover;
+    height: 30em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-2 .right:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/5.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* 6 */
+.portfolio-section .portfolio-area .gallary-3 .top {
+    background: url('../images/portfolio/6.jpg') center center no-repeat;
+    background-size: cover;
+    height: 15em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-3 .top:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/6.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* 7 */
+.portfolio-section .portfolio-area .gallary-3 .bottom .left {
+    background: url('../images/portfolio/7.jpg') center center no-repeat;
+    background-size: cover;
+    height: 15em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-3 .bottom .left:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/7.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* 8 */
+.portfolio-section .portfolio-area .gallary-3 .bottom .right {
+    background: url('../images/portfolio/8.jpg') center center no-repeat;
+    background-size: cover;
+    height: 15em;
+    text-align: center;
+}
+.portfolio-section .portfolio-area .gallary-3 .bottom .right:hover {
+    background: linear-gradient( 0deg, rgba(100, 194, 158, 0.9), rgba(154, 255, 216, 0.3)), url('../images/portfolio/8.jpg') center center no-repeat;
+    background-size: cover;
+}
+/* end */
+
+.portfolio-section .portfolio-area .gallary-1 .top .left a img,
+.portfolio-section .portfolio-area .gallary-1 .top .right a img,
+.portfolio-section .portfolio-area .gallary-1 .bottom a img,
+.portfolio-section .portfolio-area .gallary-3 .top a img,
+.portfolio-section .portfolio-area .gallary-3 .bottom .left a img,
+.portfolio-section .portfolio-area .gallary-3 .bottom .right a img {
+    margin-top: 5.5em;
+    display: none;
+}
+
+.portfolio-section .portfolio-area .gallary-2 .left a img,
+.portfolio-section .portfolio-area .gallary-2 .right a img {
+    margin-top: 13.5em;
+    display: none;
+}
+
+.portfolio-section .portfolio-area .gallary-1 .top .left:hover a img,
+.portfolio-section .portfolio-area .gallary-1 .top .right:hover a img,
+.portfolio-section .portfolio-area .gallary-1 .bottom:hover a img,
+.portfolio-section .portfolio-area .gallary-2 .left:hover a img,
+.portfolio-section .portfolio-area .gallary-2 .right:hover a img,
+.portfolio-section .portfolio-area .gallary-3 .top:hover a img,
+.portfolio-section .portfolio-area .gallary-3 .bottom .left:hover a img,
+.portfolio-section .portfolio-area .gallary-3 .bottom .right:hover a img {
+    display: inline-block;
+    transition: 300ms;
+}
+
+
+.portfolio-section .shop-btn-area {
+    background-color: #4d4959;
+    padding: 6em 0;
+    display: block;
+}
+
+.portfolio-section .shop-btn-area a{
+    text-decoration: none;
+    color: #f7f7f7;
+    background-color: #4d4959;
+    border: 0.0625em solid #f7f7f7;
+    font-size: 1.25em;
+    letter-spacing: .1em;
+    font-weight: bold;
+    padding: 0.75em 3.125em;
+    transition: 300ms;
+    box-shadow: inset 0 0 0 0 #f7f7f7;
+}
+
+.portfolio-section .shop-btn-area a:hover {
+    box-shadow: inset 400px 0 0 0 #f7f7f7;
+    color: #4d4959;
+}
+
+/* ================== #6. Subscribe Section ================== */
+
+    /* Logo Icon */
+.subscribe-section .logo-icon img {
+    width: 5em;
+    height: auto;
+    padding-top: 8rem;
+}
+
+    /* Title Area */
+.subscribe-section .title-area h3 {
+    font-size: 1.5em;
+    color: #848789;
+    font-style: italic;
+    margin: 2.5rem 0;
+}
+
+    /* Form */
+.subscribe-section form .input-group {
+    max-width: 40em;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+}
+.form-control,
+.btn-group-lg > .btn, .btn-lg {
+    border-radius: 0;
+}
+.input-group-btn {
+    padding-left: 8px;
+}
+
+        /* Input Area */
+.subscribe-section form input::placeholder {
+    color: #929292;
+    opacity: .5;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+.subscribe-section form input[type="email"]:focus {
+    border-color: #51a082;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(2, 168, 113, 0.6);
+    outline: 0 none;
+  }
+
+        /*Submit Button Area */
+.btn-default {
+    background-color: #64c29e;
+    color: white;
+    background-image: none;
+    text-shadow: none;
+    width: 5em;
+}
+.subscribe-section form .btn-default:hover {
+    background-color: #51a082;
+    color: white;
+}
+
+/* ================== #6. Footer Section ================== */
+
+footer {
+    background-color: #f7f7f7;
+}
+
+footer .address-area h5 {
+    color: #848789;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 6em 0 .35em 0;
+}
+footer .address-area p {
+    color: #848789;
+    font-size: 0.875em;
+    font-style: italic;
+}
+
+footer .social-media {
+    margin: 6.5em 0 0 0;
+}
+
+footer .social-media i {
+    padding-top: 0.525em;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+    height: 2em;
+    width: 2em;
+    color: white;
+    background-color: red;
+    border-radius: 100%;
+}
+
+footer .social-media a:nth-child(1) i {
+    background-color: #78cdf0;
+    transition: 300ms;
+}
+footer .social-media a:nth-child(2) i {
+    background-color: #537bbd;
+    transition: 300ms;
+}
+footer .social-media a:nth-child(3) i {
+    background-color: #eb5755;
+    transition: 300ms;
+}
+
+footer .social-media a:nth-child(1) i:hover {
+    background-color: #00b3ff;
+}
+footer .social-media a:nth-child(2) i:hover {
+    background-color: #294674;
+}
+footer .social-media a:nth-child(3) i:hover {
+     background-color: #e90400;
+}
+
+footer .cradit {
+    color: #848789;
+    font-size: 1em;
+    font-style: italic;
+    margin: 6.5em 0 0 0;
+    padding-bottom: 5.5em;
+    
+}
+footer .cradit img {
+    padding-left: .5em;
+}
+/* ================== Responsive ================== */
+@media screen and (max-width: 768px) {
+    header nav ul.list-inline li{
+        padding: .5em 1em;
+        margin: 0em;
+    }  
+    header .logo-area {
+        display: block;
+        padding-top: 1.5em;
+    }
+    header ul li:nth-child(3) {
+        display: none;
+    }
+    .catagory .catagory-one .right-area .upper-text .content {
+        padding-top: 7em;
+    }
+    footer .address-area h5,
+    footer .address-area p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) { 
+    * {
+        font-size: 97%;
+    }
+}
+
+@media screen and (min-width: 1600px) { 
+    * {
+        font-size: 103%;
+    }
+}

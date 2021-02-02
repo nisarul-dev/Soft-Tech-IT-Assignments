@@ -1,0 +1,40 @@
+.hox {
+    height: 0;
+    width: 0;
+    border-bottom: 100px solid black;
+    /* border-top has nothing to do; */
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    margin-bottom: 10px;
+}
+.box {
+    height: 0;
+    width: 0;
+    border-bottom: 100px solid green;
+    /* border-top has nothing to do; */
+    border-left: 100px solid transparent;
+    border-right: 0 solid transparent;
+}
+.dox {
+    height: 0;
+    width: 0;
+    border-top: 100px solid green;
+    /* border-bottom has nothing to do; */
+    border-left: 0 solid transparent;
+    border-right: 100px solid transparent;
+    position: relative;
+    left: 100px;
+    margin-bottom: 10px;
+}
+
+.sox {
+    height: 0;
+    width: 0;
+    border-top: 50px solid transparent;
+    border-left: 50px solid blue;
+    border-right: 100px solid blue;
+    /* border-right has nothing to do; 
+    cause color is set in border-left;
+    So the oposite of border-left should not write;
+    here I tried the border-right as experiment;*/
+}

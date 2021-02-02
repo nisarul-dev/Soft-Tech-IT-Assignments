@@ -1,0 +1,100 @@
+/* Css Code goes here */
+
+body {
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    background: #27ae60;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a,
+.slide-down {
+    display: block;
+    text-decoration: none;
+    color: #ecf0f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.125em;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background: #2ecc71;
+}
+
+nav ul li ul {
+    display: none;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    background: #27ae60;
+}
+
+nav ul li ul li:hover {
+    background: #2ecc71;
+}
+
+.slide-down {
+    display: none;
+    font-size: 1.5em;
+    background: #006266;
+}
+
+.slide-down i {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    nav ul li ul {
+        width: 100%;
+        position: relative;
+        background: #2ecc71;
+    }
+    
+    nav ul li ul li a {
+        padding-left: 10%;
+    }
+    
+    nav ul li ul li:hover a {
+        background: #27ae60;
+    }
+    
+    .slide-down {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    nav .container> ul {
+        display: flex !important;
+    }
+}

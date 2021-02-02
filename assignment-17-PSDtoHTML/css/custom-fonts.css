@@ -1,0 +1,15 @@
+/*
+Custom Woff fonts:
+1. Quicksand Bold Regular.woff
+2. MyriadPro Regular.woff
+*/
+
+@font-face {
+    font-family: 'gb';
+    src: url('../fonts/QuicksandBoldRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'mr';
+    src: url('../fonts/MyriadPro-Regular.woff') format('woff');
+}

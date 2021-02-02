@@ -1,0 +1,589 @@
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/**
+***** 1. Header Section Starts */
+header {
+    background-color: #87509c;
+    padding: 60px 0;
+}
+/* Logo Area */
+header .header-top .logo-area {
+    width: 15%;
+    float: left;
+}
+
+/* Menu Area */
+header .header-top .header-menu {
+    width: 85%;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 12px 0 10px;
+}
+
+header .header-top .header-menu ul  {
+    margin: 0;
+    text-align: right;
+}
+
+header .header-top .header-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header .header-top .header-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+header .header-top .header-menu ul li:hover a {
+    background-color: #643a79;
+}
+
+header .header-top .header-menu ul li.active a {
+    background-color: #643a79;
+}
+
+/* Header Action Area */
+header .header-action {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+header .header-action h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin-bottom: 30px;
+}
+
+header .header-action a {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    text-decoration: none;
+    padding: 25px 70px 21px;
+    color: white;
+    font-weight: bold;
+    background-color: #eb7d4b;
+    border-bottom: 4px solid #c86a40;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+header .header-action a:hover {
+    background-color: #c86a40;
+}
+
+/**
+***** 2. Services Section Starts */
+.services-area {
+    padding: 75px 0;
+    background-color: #17c2a4;
+    color: white;
+}
+.services-area h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 14px;
+    letter-spacing: 0.05em;
+}
+
+.services-area hr {
+    width: 90px;
+    margin: auto;
+    border: 3px solid #14a58c;
+}
+
+.services-area .container> p {
+    text-align: center;
+    color: white;
+}
+
+.services-area .service-container .service-item img {
+    height: 120px;
+    width: auto;
+}
+
+.services-area .service-container .service-item h4 {
+    font-size: 24px;
+    margin: 40px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.services-area .service-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 82px;
+}
+.services-area .service-container .service-item {
+    margin: 0 25px;
+}
+
+/**
+***** 3. Team Section Starts */
+.team-area {
+    background-color: #e7f1f8;
+    padding: 75px 0;
+}
+
+.team-area h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 14px;
+    letter-spacing: 0.05em;
+    color: #3c4761;
+}
+
+.team-area hr {
+    width: 90px;
+    margin: auto;
+    border: 3px solid #c8d9e5;
+}
+
+.team-area .container> p {
+    text-align: center;
+    color: #3c4761;
+}
+
+.team-area .member-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 82px;
+    flex-wrap: wrap;
+}
+
+.team-area .member-container .member-item {
+    width: 200px;
+}
+
+/* How to Fit A photo in a Circle */
+.team-area .member-container .member-item .photo-container {
+    height: 200px;
+    width: 200px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+
+    margin: auto;
+}
+
+.team-area .member-container .member-item .photo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.team-area .member-container .member-item h4 {
+    font-size: 24px;
+    margin: 40px 0  0 0;
+    text-transform: uppercase;
+}
+
+.team-area .member-container .member-item h6 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #30bae7;
+}
+
+.team-area .member-container .member-item .social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    padding: 4px 8px;
+    background-color: #bdd1df;
+    border-radius: 50%;
+    transition: 300ms;
+    border: 1px solid #bdd1df;
+}
+
+.team-area .member-container .member-item .social-links {
+    padding: 16px 0;
+}
+
+.team-area .member-container .member-item .social-links a:hover {
+    background-color: #fff;
+    border: 1px dashed #30bae7;
+}
+
+.team-area .member-container .member-item .social-links a:hover i {
+    color: #30bae7;
+}
+
+/**
+***** 4. Skill Section Starts */
+.skills-area {
+    padding: 75px 0;
+}
+
+.skills-area h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 14px;
+    letter-spacing: 0.05em;
+    color: #3c4761;
+}
+
+.skills-area hr {
+    width: 90px;
+    margin: auto;
+    border: 3px solid #dfe8ed;
+}
+
+.skills-area .container> p {
+    text-align: center;
+    color: #3c4761;
+}
+
+
+.skills-area .skill-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.skills-area .skill-container .skill-item {
+    margin: 0 25px;
+}
+
+/**
+***** 5. Portfolio Section Starts */
+.portfolio-area {
+    background-color: #ffdd99;
+    padding: 75px 0;
+}
+
+.portfolio-area h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 14px;
+    letter-spacing: 0.05em;
+    color: #393939;
+}
+
+.portfolio-area hr {
+    width: 90px;
+    margin: auto;
+    border: 3px solid #e5c37f;
+}
+
+.portfolio-area .container> p {
+    text-align: center;
+    color: #393939;
+}
+
+.portfolio-area .controls {
+    padding: 60px 0 70px;
+    text-align: center;
+}
+
+.portfolio-area .controls button {
+    display: inline-block;
+    margin: 0 10px;
+    color: #393939;
+    background-color: #ebc985;
+    padding: 10px 20px;
+    border-width: 0;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.portfolio-area .controls button:hover {
+    background-color: #ffffffc0;
+}
+
+.portfolio-area .controls button.mixitup-control-active {
+    background-color: #fff;
+}
+
+.portfolio-area .portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.portfolio-area .portfolio-container .portfolio-item {
+    width: 40%;
+    margin: 15px 0;
+}
+
+.portfolio-area .portfolio-container .portfolio-item .photo-container img {
+    width: 100%;
+}
+
+.portfolio-area .portfolio-container .portfolio-item h5 {
+    font-size: 18px;
+    color: #393939;
+}
+
+.portfolio-area .button {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.portfolio-area .button a {
+    text-decoration: none;
+    padding: 25px 70px 21px;
+    color: white;
+    font-weight: bold;
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.portfolio-area .button a:hover {
+    background-color: #14a58c;
+}
+
+/**
+***** 7. Contact Section Starts */
+.contact-area {
+    background-color: #3c5499;
+    padding: 75px 0;
+    color: white;
+}
+
+.contact-area h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 14px;
+    letter-spacing: 0.05em;
+}
+
+.contact-area hr {
+    width: 90px;
+    margin: auto;
+    border: 3px solid #273a71;
+}
+
+.contact-area .container> p {
+    text-align: center;
+}
+
+.contact-area form {
+    margin: 60px 0 0;
+}
+
+.contact-area form input#name,
+.contact-area form input#email,
+.contact-area form textarea {
+    background-color: #273a71;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+.contact-area form textarea {
+    display: block;
+    padding: 2.5%;
+    width: 95%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+}
+.contact-area form .first-row {
+    overflow: hidden;
+}
+.contact-area form input#name {
+    width: 43.5%;
+    float: left;
+    padding: 2.5%;
+}
+
+.contact-area form input#email {
+    width: 43.5%;
+    float: right;
+    padding: 2.5%;
+}
+
+.contact-area form input[type="submit"] {
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    padding: 25px 70px 21px;
+    color: white;
+    font-weight: bold;
+    background-color: #30bae7;
+    border: none;
+    border-bottom: 4px solid #299ec5;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.contact-area form input[type="submit"]:hover {
+    background-color: #299ec5;
+}
+
+/**
+***** 8. Footer Section Starts */
+footer {
+    background-color: #344b8e;
+    padding: 40px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+footer ul li a:hover {
+    color: #30bae7;
+}
+
+/**
+***** Responsive Design */
+@media screen and (max-width: 768px) {
+    
+    .container {
+        width: 90%;
+    }
+
+    /* 1. Header Section */
+    .services-area h2,
+    .portfolio-area h2,
+    .contact-area h2,
+    .team-area h2,
+    .skills-area h2 {
+        font-size: 26px;
+    }
+    header {
+        padding: 30px 0 0; 
+    }
+    header .header-top .logo-area {
+        position: relative;
+        top: 50px;
+    }
+    header .header-top .header-menu ul li {
+        list-style: none;
+        display: block;
+        margin: 0 0 5px;
+    }
+    header .header-top .header-menu ul li a {
+        padding: 5px 9px;
+    }
+    header .header-action {
+        text-align: center;
+    }
+    header .header-action h1 {
+        font-size: 28px;
+    }
+
+    /* 2. Services Section ,
+    ** 3. Team Section Starts ,
+    ** 4. Skill Section Starts,
+    ** 5. protfolio Area Starts */
+    .services-area .service-container,
+    .team-area .member-container,
+    .skills-area .skill-container {
+        flex-wrap: wrap;
+    }
+
+    .services-area .service-container .service-item,
+    .team-area .member-container .member-item,
+    .skills-area .skill-container .skill-item,
+    .portfolio-area .portfolio-container .portfolio-item {
+        width: 45%;
+        margin: 0;
+        padding: 0 0 50px 0;
+    }
+
+    /* 5. protfolio Area Starts */
+    .portfolio-area .controls button {
+        margin: 0 10px;
+        padding: 5px 10px;
+    }
+    .portfolio-area .button a {
+        padding: 13px 35px 11px;
+    }
+
+    /* 7. Contact Section Starts */
+    .contact-area form input#name {
+        width: 90%;
+        float: none;
+        padding: 5%;
+        display: block;
+    }
+    .contact-area form input#email {
+        width: 90%;
+        float: none;
+        display: block;
+        padding: 5%;
+    }
+    .contact-area form textarea {
+        padding: 5%;
+        width: 90%;
+    }
+
+    /* 8. Footer Section Starts */
+    footer ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    footer ul li {
+        display: block;
+        width: 50%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .services-area .service-container,
+    .team-area .member-container,
+    .skills-area .skill-container,
+    .portfolio-area .portfolio-container {
+        justify-content: space-around;
+    }
+    .services-area .service-container .service-item,
+    .team-area .member-container .member-item,
+    .skills-area .skill-container .skill-item,
+    .portfolio-area .portfolio-container .portfolio-item {
+        width: 80%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    header .header-action {
+        height: 85vh;
+    }
+}

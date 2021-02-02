@@ -1,0 +1,50 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background: #a0a0ff;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+    transition: 1s;
+}
+
+.box:before {
+    content: '';
+    clear: both;
+    background: gray;
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    transition: 1s;
+}
+
+.box:after {
+    content: '';
+    clear: both;
+    background: green;
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transition: 1s;
+}
+
+.box:hover:after {
+    left: -50px;
+    top: -50px;
+}
+
+.box:hover:before {
+    left: 100%;
+    top: 100%;
+}
+
+.box:hover {
+    transform: rotate(-720deg);
+}
+

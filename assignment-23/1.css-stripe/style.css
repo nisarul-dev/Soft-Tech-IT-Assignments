@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    background: url('images/social.png');
+    height: 84px;
+    width: 84px;
+    display: block;
+}
+
+nav ul li.facebook a {
+    background-position: 0px 0px;
+    transition: 300ms;
+    border: 2px solid #0e15d1;
+    border-radius: 100%;
+}
+
+nav ul li.facebook:hover a {
+    background-position: 0px -84px;
+}
+
+
+

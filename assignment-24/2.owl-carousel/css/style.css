@@ -1,0 +1,59 @@
+/* Css Code goes here */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item img{
+    display: block !important;
+    width: 105% !important;
+    height: auto;
+    margin: 0 auto;
+}
+
+.owl-carousel {
+    position: relative;
+    width: 100%;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -32px;
+}
+
+.owl-nav span {
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 8px 12px;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -18px;
+}
+
+.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -18px;
+}
+
+.owl-dot {
+    background-color: gray !important;
+    height: 3px !important;
+    width: 15px !important;
+    border-radius: 5px;
+    margin: 0 3px;
+    opacity: 0.5;
+}
+
+.owl-dot.active {
+    background-color: rgb(20, 161, 20) !important;
+    opacity: 0.5;
+}
+

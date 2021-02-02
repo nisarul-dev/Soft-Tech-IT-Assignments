@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuda Single Page Portfolio: PSD to HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-free-5.12.0.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- 5. Portfolio Section Starts -->
+    <section class="portfolio-area">
+        <div class="container">
+            <h2>OUR PORTFOLIO</h2>
+            <hr>
+            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+            <nav class="controls">
+                <button class="active" type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".category-web">WEB</button>
+                <button type="button" data-filter=".category-apps">APPS</button>
+                <button type="button" data-filter=".category-icons">ICONS</button>
+            </nav>
+            <div class="mixed-it-up portfolio-container">
+                <div class="mix  category-apps portfolio-item">
+                    <div class="photo-container">
+                        <img src="images/portfolio-1.png" alt="pp-photo">
+                    </div>
+                    <h5>Isometric Perspective Mock-Up</h5>
+                </div>
+                <div class="mix category-web portfolio-item">
+                    <div class="photo-container">
+                        <img src="images/portfolio-2.png" alt="pp-photo">
+                    </div>
+                    <h5>Time Zone App UI</h5>
+                </div>
+                <div class="mix category-web category-apps portfolio-item">
+                    <div class="photo-container">
+                        <img src="images/portfolio-3.png" alt="pp-photo">
+                    </div>
+                    <h5>Viro Media Players UI</h5>
+                </div>
+                <div class="mix category-icons portfolio-item">
+                    <div class="photo-container">
+                        <img src="images/portfolio-4.png" alt="pp-photo">
+                    </div>
+                    <h5>Blog / Magazine Flat UI Kit</h5>
+                </div>
+            </div>
+            <div class="button">
+                <a  href="#">LOAD MORE PROJECTS</a>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section Ends -->
+
+    <script src="js/mixitup.min.js"></script>
+
+    <script>
+        var mixer = mixitup('.mixed-it-up');
+    </script>
+
+</body>
+</html>

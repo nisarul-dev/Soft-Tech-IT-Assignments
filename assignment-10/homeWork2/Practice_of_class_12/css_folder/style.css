@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.menu {
+    background-color: #4CAF50;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+}
+
+.menu> .container> ul> li {
+    float: left;
+    position: relative;
+}
+
+.menu:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.menu .container ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-family: arial;
+    padding: 10px 15px;
+    display: block;
+    border-left: 1px solid #969696;
+}
+
+.menu ul li a[href="index.html"] {
+    border-left:  none;
+}
+
+.menu ul li:hover a {
+    background: rgba(225, 166, 14, 0.7);
+    transition: 500ms;
+}
+
+.menu ul li a.active {
+    border-bottom: 5px solid #E1A60E;
+    padding: 10px 15px 5px;
+}
+
+.menu ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #4CAF50;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    display: none;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul li:hover a {
+    background: #4c5baf;
+}
+
+.menu> .container> ul> li> ul> li {
+    position: relative;
+}
+
+.menu> .container> ul> li> ul> li> ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 200px;
+    display: none;
+}
+
+.menu> .container> ul> li> ul> li:hover> ul {
+    display: block;
+}
+
+.menu ul ul ul li:hover a {
+    background: #af4c4c;
+}
+
+.menu> .container> ul> li> ul> li> ul> li> ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    max-width: 200px;
+    display: none;
+    z-index: 1;
+}
+
+.menu> .container> ul> li> ul> li> ul> li {
+    position: relative;
+}
+
+.menu> .container> ul> li> ul> li> ul> li:hover> ul {
+    display: block;
+}
+
+
+

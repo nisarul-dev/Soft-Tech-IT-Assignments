@@ -1,0 +1,30 @@
+* {
+    font-size: 60px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/sansation_light.woff);
+}
+
+@font-face {
+    font-family: banglaAvroFont;
+    src: url(../fonts/muktinarrow.woff);
+}
+
+@font-face {
+    font-family: banglaBijoyFont;
+    src: url(../fonts/Siyam-Rupali-ANSI.woff);
+}
+
+.eng {
+    font-family: myFirstFont;
+}
+
+.ban-avro {
+    font-family: banglaAvroFont;
+}
+
+.ban-bijoy {
+    font-family: banglaBijoyFont;
+}

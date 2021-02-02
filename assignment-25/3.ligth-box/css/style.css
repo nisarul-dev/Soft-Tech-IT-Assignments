@@ -1,0 +1,21 @@
+/* Css Code goes here */
+
+.container {
+    width: 80%;
+    margin: 0 atuo;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-container .flex-item {
+    width: 20%;
+    margin: 5px;
+}
+
+.flex-container .flex-item a img {
+    width: 100%;
+}

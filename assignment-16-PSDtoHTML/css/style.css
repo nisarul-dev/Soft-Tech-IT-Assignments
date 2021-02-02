@@ -1,0 +1,548 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Phototime
+	Template URI: https://www.nisarul.com
+	Description: photo related template
+	Author: Nisarul Amin Naim
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Header Area
+		1.1 Menu Area
+		1.2 Welcome Text 
+		1.3 Social Media
+	2. About Me Area
+        2.1 Text Area
+        2.2 Image Area
+	3. Contact Area
+	4. Download Area
+        4.1 Heading
+        4.2 Description
+        4.3 Button Area
+            4.3.1 iPhone Button
+            4.3.2 Android Button
+	5. Footer Area
+        5.1 Text Area
+        5.2 Logo Area
+
+-----------------------------------------------------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-family: 'Gotham Rounded Bold';
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+h4 {
+    font-size: 1.125em;
+    font-family: 'Gotham Rounded Bold';
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+h5 {
+    font-size: 1em;
+    font-family: 'Gotham Rounded Medium';
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+p {
+    font-size: 0.875em;
+    font-family: 'Gotham Rounded Medium';
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 0.875em;
+    padding: 20px 32px;
+    border-radius: 0.25em;
+    background: #16a085;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: 0.125em solid #16a085;
+    transition: 300ms;
+}
+
+.btn:hover {
+    color: #16a085;
+    background: #ffffff;
+    border: 0.125em solid #16a085;
+}
+
+.col-2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.goup a i {
+    color: black;
+    background: rgba(255, 255, 255, 0.42);
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 9px 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/************** 1. Header Area *******************/
+
+header {
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(-45deg, rgba(160, 22, 22, 0.35), rgba(0, 0, 0, 0.9)), url('../images/header-bg.jpg') no-repeat center right;
+    background-size: cover;
+    padding: 2em;
+}
+
+
+header > div.container > img[alt="logo-for-responsive"] {
+    display: none;
+}
+
+/************ 1.1 Menu Area *************/
+
+header nav.menu-area ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav.menu-area li {
+    display: inline-block;
+    font-family: 'Gotham Rounded Bold';
+    width: 7em;
+    margin: 0 3%;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav.menu-area li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 0 0 .5em;
+    transition: 500ms;
+    border-bottom: .25em solid transparent;
+}
+
+header nav.menu-area li:not(:nth-child(3)) a:hover {
+    border-bottom: .25em solid #16a085;
+}
+
+header nav.menu-area li:nth-child(3):hover a img {
+    transform: scale(1.25);
+}
+
+header nav.menu-area img {
+    position: relative;
+    top: 0.7em;
+    transition: 500ms;
+}
+
+header > div.container > img[alt="logo-for-responsive"] {
+    display: none;
+}
+
+/************ 1.2 Welcome Text ************/
+
+header .heading-area {
+    margin: 12em 0 13em;
+}
+
+header .heading-area h2 {
+    margin: 0;
+}
+
+header .heading-area h5 {
+    text-transform: lowercase;
+    margin: 0.75em 0 3em;
+}
+
+/************ 1.3 Social Media ************/
+
+header .link-area i {
+    font-size: 1.25em;
+    color: #ffffff;
+    margin: 0 0.5em 0;
+    transition: 300ms;
+}
+
+header .link-area a:hover i {
+    color: #16a085;
+}
+
+/************** 1. Header Area Ends *******************/
+
+
+/************** 2. About Me Area Started *******************/
+.aboutme-area {
+    background: #f5f6f7;
+    padding: 100px 0 100px 0;
+}
+
+.aboutme-area > img {
+    display: none;
+
+}
+
+/************ 2.1 Text Area ************/
+.aboutme-area .text-area p {
+    margin: 40px 0 50px 0;
+}
+
+/************ 2.2 Image Area ************/
+.aboutme-area .image-area {
+    text-align: right;
+}
+
+.aboutme-area .image-area img {
+    width: 50%;
+}
+
+/************** About Me Area Ends ******************/
+
+/************** 3. Contact Area Starts *******************/
+.contact-area {
+    background: url('../images/Livello3.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.contact-area form {
+    width: 570px;
+    margin: auto;
+}
+
+.contact-area form label {
+    color: #ffffff;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 0.875em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.contact-area form input {
+    width: 100%;
+    background-color: #ffffff;
+    color: #16a085;
+    padding: 14px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 0.875em;
+    letter-spacing: 0.2em;
+}
+
+.contact-area form input[type="submit"] {
+    display: inline-block;
+    margin: 50px auto 0;
+    background-color: #16a085;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/************** Contact Area Ends ******************/
+
+/************** 4. Download Area Starts *******************/
+.download-area {
+    background: #f5f6f7;
+    overflow: hidden;
+    padding: 6em 0 4em 0;
+    color: #373737;
+}
+
+/************ 4.1 Heading *************/
+
+.download-area .heading h4 {
+    text-align: center;
+    margin: 0;
+}
+
+/************ 4.2 Description *************/
+
+.download-area .description p {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0.5em 0;
+}
+
+/************ 4.3 Button Area *************/
+
+.download-area .button {
+    width: 30em;
+    margin: auto;
+}
+
+.download-area .button .os {
+    position: relative;
+    width: 12em;
+    margin: 3em auto;
+}
+
+.download-area .button .os a {
+    text-decoration: none;
+}
+
+.download-area .button .os a lable {
+    background: #1abc9c;
+    padding: 0.875em 3em 0.875em 1em;
+    font-size: 2em;
+    font-family: 'Gotham Rounded Bold';
+    font-size: 0.875em;
+    color: #ffffff;
+    font-family: 'Gotham Rounded Bold';
+    letter-spacing: 0.15em;
+    border-radius: 0.25em;
+    border: .125em solid #1abc9c;
+    border-right: none;
+    transition: 300ms;
+}
+
+.download-area .button .os a i {
+    position: absolute;
+    top: -.4em;
+    left: 4.75em;
+    font-size: 2em;
+    color: white;
+    background: #16a085;
+    padding: 0.195em;
+    border-radius: 0 0.1em 0.1em 0;
+}
+
+.download-area .button .os a:hover lable {
+    background: #ffffff;
+    color: #1abc9c;
+    border: .125em solid #16a085;
+    border-right: none;
+}
+
+/************** Download Area Ends **********/
+
+/************** 5. Footer Area *******************/
+footer {
+    margin: 2.5em 0;
+}
+
+/************ 5.1 Text Area *************/
+footer .text-area {
+    width: 70%;
+    float: left;
+}
+
+footer .text-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer .text-area ul li a {
+    font-size: 0.875em;
+    color: #373737;
+    font-family: 'Gotham Rounded Bold';
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    border-right: .125em solid #16a085;
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+}
+
+footer .text-area ul li:last-of-type a {
+    border: none;
+    float: none;
+}
+
+footer .text-area ul li:first-of-type a {
+    padding-left: 0;
+}
+
+footer .text-area .copyright p {
+    font-size: 0.875em;
+    color: #373737;
+    font-family: 'Gotham Rounded Bold';
+    letter-spacing: 0.15em;
+}
+
+/************ 5.2 Logo Area *************/
+
+footer .logo-area {
+    overflow: hidden;
+    text-align: right;
+}
+
+footer .logo-area img {
+    height: 3em;
+}
+
+/************** 5. Footer Area Ends *******************/
+
+
+/************* Responsive *******************/
+@media only screen and (max-width: 992px) {
+    body {
+        position: relative;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .col-2-1 {
+        display: block;
+    }
+
+
+    /* 1. Header Area Starts */
+    header nav.menu-area {
+        width: 50%;
+        position: absolute;
+        right: 1em;
+        top: 1.25em;
+    }
+
+    header nav.menu-area ul {
+        text-align: right;
+
+    }
+
+    header nav.menu-area li {
+        display: block;
+        width: auto;
+        margin: .25em;
+    }
+
+    header nav.menu-area li a {
+        border-right: .25em solid transparent;
+        padding: 0 .5em 0 0;
+        border-bottom: none;
+    }
+
+    header nav.menu-area li:not(:nth-child(3)) a:hover {
+        border-bottom: none;
+        border-right: .25em solid #16a085;
+    }
+
+    header nav.menu-area li.active:not(:nth-child(3)) a {
+        border-bottom: none;
+        border-right: .25em solid #16a085;
+    }
+
+
+    header nav.menu-area li:nth-child(3) {
+        display: none;
+    }
+
+    header > div.container > img[alt="logo-for-responsive"] {
+        display: block;
+    }
+
+    /* 1. Header Area Ends */
+
+    /* 2. About Me Area Started */
+
+    .aboutme-area {
+        display: block;
+        text-align: center;
+    }
+
+    .aboutme-area .image-area {
+        display: none;
+    }
+
+    .aboutme-area img {
+        display: inline;
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    /* 2. About Me Area Ends */
+    
+    /* 3. Contact Area Starts */
+    .contact-area form {
+        width: 100%;
+    }
+    /* 3. Contact Area Ends */
+
+    /* 4. Download Area Starts */
+    .download-area .button {
+        width: 100%;
+    }
+
+    /* 4. Download Area Ends */
+
+    /* 5. Footer Area Starts */
+    footer {
+        font-size: 0.75em;
+    }
+
+    footer .text-area {
+        width: 100%;
+        float: none;
+    }
+
+    footer .text-area .sections {
+        width: 19.8em;
+        margin: auto;
+    }
+
+    footer .text-area .copyright {
+        text-align: center;
+    }
+
+    footer .logo-area {
+        text-align: center;
+        margin: 2em 0 0 0;
+    }
+
+    /* 5. Footer Area Ends */
+}
+
+
+
+
+
+
+
+
+
