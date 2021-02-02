@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.a1 {
+    background: #bababa;
+    height: 50px;
+}
+
+.a2 {
+    background: #75f2e8;
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+
+.a3 {
+    background: #f27575;
+    width: 60%;
+    min-height: 400px;
+    float: left;
+    overflow: hidden;
+}
+
+.a4 {
+    background: #7588f2;
+    width: 20%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.a5 {
+    background: #bababa;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+

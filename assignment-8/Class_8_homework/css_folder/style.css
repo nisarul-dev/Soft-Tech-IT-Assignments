@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf0f6;
+}
+
+
+.header{
+    background: #3C5A98;
+    padding: 5px;
+    
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+}
+
+.log_in {
+    overflow: hidden;
+    margin-left: 433px;
+    color: white;
+}

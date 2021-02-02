@@ -1,0 +1,72 @@
+/* Position = static, fixed, relative, absolute*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* This is the example of positon relative and absolute */
+.parent1 {
+    height: 500px;
+    width: 700px;
+    margin: 50px 0;
+    background: gray;
+    position: relative;
+    left: 50px;
+}
+
+.child1 {
+    height: 150px;
+    width: 150px;
+    background: #4e4efd;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+
+.parent2 {
+    height: 500px;
+    width: 700px;
+    margin: 100px 0;
+    background: gray;
+    left: 50px;
+    position: relative;
+}
+
+.child2 {
+    height: 150px;
+    width: 150px;
+    background: #4e4efd;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+
+/* This is an example of position fixed */
+.headline {
+    background-color: #a7ffa0;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/*fixed & absolute relationship*/
+
+.absolute {
+    height: 40px;
+    width: 40px;
+    background: #ff6a6a;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+}
+
+.fixed {
+    height: 40px;
+    width: 40px;
+    background: #5b5bff;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}

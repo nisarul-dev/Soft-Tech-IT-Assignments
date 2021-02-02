@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*** Fonts Starts***/
+.text-ui {
+    font-family: "Segoe UI", Arial;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+/*** Fonts Ends***/
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    background-color: #3C5A99;
+    padding: 15px 10px;
+}
+
+.header .logo-area {
+    padding: 15px 0 0 0;
+    float: left;
+}
+
+.header .login-area {
+    color: white;
+    font-family: "Segoe UI", Arial;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.login-area input {
+    margin: 3px 0;
+}
+
+.login-area input[type="password"],
+.login-area input[type="text"] {
+    border-style: none solid solid none;
+    border-color: #35466f;
+    border-width: 2px;
+    padding: 3px;
+}
+
+.login-area form {
+    float: right;
+}
+
+.login-area label,
+.login-area input {
+    display: block
+}
+
+
+
+.login-area input[type="checkbox"] {
+    float: left;
+    margin: 2px 5px 0 0;
+}
+
+.login-area .username-area {
+    float: left;
+}
+
+.login-area .password-area {
+    margin: 0 5px;
+    float: left;
+    overflow: hidden;
+}
+
+.login-area .password-area a,
+.login-area label[for="KeepLogin"] {
+    color: #8c9dc8;
+    text-decoration: none;
+}
+
+.login-area .password-area a:hover {
+    text-decoration: underline;
+}
+
+.login-area .submit-area {
+    margin: 16px 0;
+    overflow: hidden;
+    float: left;
+}
+
+.login-area .submit-area input {
+    color: white;
+    background: #8c9dc8;
+    font-size: 14px;
+    border-style: none solid solid none;
+    border-color: #35466f;
+    border-width: 3px;
+    padding: 2px 6px;
+}
+
+.login-area label {
+    cursor: pointer;
+}
+
+/* Main Area */
+
+.main-area {
+    background: linear-gradient(white, #D3D8E8);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.mobile-area {
+    width: 45%;
+    float: left;
+    margin-right: 15%;
+    margin-top: 45px;
+    background: url(../images/background.png) no-repeat bottom left;
+    padding-bottom: 73px;
+}
+
+.signup-area {
+    width: 40%;
+    overflow: hidden;
+    padding:25px 0 25px 0;
+}
+
+.mobile-image {
+    float: left;
+    margin-left: 50px;
+}
+
+.mobile-text {
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.mobile-text h4 {
+    color: #1F2F45;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+.mobile-text p {
+    color: #A29B9C;
+    font-size: 14px;
+}
+
+.mobile-text a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #372912;
+    border: 1px solid black;
+    padding: 1px 3px;
+    background-image: linear-gradient(white, #D3D8E8);
+    float: right;
+    margin-top: 50px;
+}
+
+.signup-area h1{
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+
+.signup-area form{
+    padding: 15px 0 0 0;
+}
+
+.signup-area input[type="text"],
+.signup-area input[type="password"] {
+    margin: 10px 0 0 0;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid #BDC7D8;
+    box-sizing: border-box;
+}
+
+.signup-area form input[placeholder="First name"]{
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+
+.signup-area form input[placeholder="Last name"]{
+    width: 49%;
+    overflow: hidden;
+}
+
+.signup-area input[type="password"] {
+    margin-bottom: 15px;
+}
+
+.signup-area form select {
+    padding: 6px 4px;
+    border:  1px solid #BDC7D8;
+    float: left;
+}
+
+.birthday-area {
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.signup-area form p {
+    text-decoration: none;
+    color: #888F8D;
+    font-size: 12px;
+    display: block;
+}
+
+.signup-area form select[name="year"] {
+    margin-right: 20px;
+}
+
+.signup-area form a {
+    text-decoration: none;
+    color: #35466f;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.gender-area {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.gender-area label {
+    margin-right: 10px;
+}
+
+.signup-area input[type="submit"] {
+    margin: 15px 0;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    border-radius: 6px;
+    padding: 7px 75px;
+    border: 1px solid;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    font-size: 16px;
+}
+
+.main-area hr {
+    margin-bottom: 10px;
+}
+
+.signup-area a {
+    text-decoration: none;
+    color: #35466f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*** Footer Area ***/
+
+.footer-area ul li a{
+    text-decoration: none;
+    color: #5770BA;
+    font-size: 12px;
+    float: left;
+    
+}
+
+.footer-area ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-area .footer-top ul li:last-of-type a {
+    background: #d0dcf0;
+    padding: 0px 5px 2px;
+    border-radius: 2px;
+}
+
+.footer-area .footer-top ul li:last-of-type a:hover {
+    background: #a3b7d9;
+    padding: 0px 5px 2px;
+    border-radius: 2px;
+}
+
+.footer-area hr {
+    margin: 5px 0 10px;;
+    border-bottom: 1px;
+}
+
+.footer-area {
+    width: 80%;
+}
+
+.footer-area .footer-bottom li {
+    width: 8%;
+}
+
+.copyright p {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #7c7d7e;
+}
+
+.copyright a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5770BA;
+}
+
+
+
+
+
+/****  Responsive ****/
+@media all and (max-width: 1029px) {
+    /*** Main Area Start ***/
+    .mobile-area {
+        background-size: contain;
+    }
+    
+    /*** Main Area End ***/
+}
+
+@media all and (max-width: 768px) {
+    /*** Header Area Start ***/
+    .header .logo-area {
+        float: none;
+        padding: 15px 0 20px;
+        text-align: center;
+        
+    }
+
+    .login-area {
+        width: 308px;
+        margin: auto;
+    }
+    
+    .login-area .submit-area input{
+        width: 303px;
+    }
+    /*** Header Area End ***/
+    
+    /*** Main Area Start ***/
+    .mobile-area {
+        float: none;
+        width: 100%;
+        min-height: 250px;
+    }
+    
+    .signup-area {
+        width: 100%;
+    }
+    
+    /*** Main Area End ***/
+    
+    /*** Footer Area start ***/
+    
+    .footer-area .footer-bottom li {
+        display: none;
+    }
+    /*** Footer Area End ***/
+
+}
+
+@media all and (max-width: 400px) {
+    /*** Header Area Start ***/
+    .login-area form {
+        float: none;
+    }
+
+    .login-area .username-area {
+        float: none;
+    }
+
+    .login-area .password-area {
+        float: none;
+        margin: 0;
+    }
+
+    .login-area .submit-area {
+        float: none;
+    }
+
+    .login-area input[type="password"],
+    .login-area input[type="text"],
+    .login-area .submit-area input,
+    .login-area {
+        width: 100%;
+        margin: auto;
+    }
+    
+    /*** Header Area End ***/
+    
+    /*** Main Area Start ***/
+    .mobile-area {
+        min-height: 200px;
+    }
+    
+    /*** Main Area End ***/
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.abc {
+    background: red;
+    height: 150px;
+    width: 300px;
+    float: left;
+}
+
+.def {
+    background: yellow;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .abc {
+        float: none;
+        background: #ff46dc;
+    }
+}

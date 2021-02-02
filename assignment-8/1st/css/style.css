@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lower {
+    height: 150px;
+    width: 80%;
+    background: #B97A57;
+    float: right;
+}
+
+.left {
+    height: 600px;
+    width: 70%;
+    float: left;
+}
+
+.lDown {
+    background: #A349A4;
+    height: 200px;
+}
+
+.right {
+    height: 600px;
+    width: 30%;
+    float: right;
+}
+
+.rUp {
+    background: #B5E61D;
+    height: 150px;
+}
+
+.lUpLeft {
+    height: 250px;
+    background-color: red;
+    width: 50%;
+    float: left;
+}
+
+.lUpRight {
+    height: 400px;
+    background-color: #FF7F27;
+    overflow: hidden;
+    width: 50%;
+}
+
+.rdown {
+    background: #7092BE;
+    height: 350px;
+}
+
