@@ -4,8 +4,7 @@ Nisarul Amin Naim, Roll # 421, Online Batch
 
 Personal Website: https://www.nisarul.com
 
-
->> ASSIGNMENTS with LIVE LINK :
+> ASSIGNMENTS with LIVE LINK :
 
 Assignment 1 : Class-1 (Writting Paragraph)
 https://softtech-it.nisarul.com/assignment-1/
