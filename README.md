@@ -1,10 +1,9 @@
 # Soft-Tech-IT Assignments
 
-Nisarul Amin Naim
-Roll # 421
-Batch: Online Batch
+Nisarul Amin Naim, Roll # 421, Online Batch
 
 Personal Website: https://www.nisarul.com
+
 
 >> ASSIGNMENTS with LIVE LINK :
 
