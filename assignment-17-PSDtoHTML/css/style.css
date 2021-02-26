@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Twincle
+    Template Name: Twinkle
     Template URI: https://www.nisarul.com/twincle
     Description: Online Store related template
     Author: Nisarul Amin Naim
@@ -24,419 +24,447 @@
         3.2 Women Section
     4. About Area
     5. Footer Area
-        5.1 Advertisement Area
+        5.1 Social Area
         5.2 Footer Main Area
             5.2.1 Description Area
             5.2.2 Credits Area
 
         -----------------------------------------------------------------------------------*/
-
+html {
+  scroll-behavior: smooth;
+}
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 body {
-    background: url('../images/bg.png') top left no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("../images/bg.png") top left no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 /* Scroll to Header Icon */
 .go-up a i {
-    color: black;
-    background: rgba(255, 255, 255, 0.42);
-    border: 0.0625em solid gray;
-    border-radius: 100%;
-    padding: 0.5625em 0.625em;
-    position: fixed;
-    right: 0.625em;
-    bottom: 0.625em;
+  color: black;
+  background: rgba(255, 255, 255, 0.42);
+  border: 0.0625em solid gray;
+  border-radius: 100%;
+  padding: 0.5625em 0.625em;
+  position: fixed;
+  right: 0.625em;
+  bottom: 0.625em;
 }
-
 /* 1. Header Area Starts */
 header {
-    background: url('../images/header-bg.jpg') bottom center no-repeat;
-    background-size: cover;
-    color: white;
-    overflow: hidden;
-    padding: 1.5em;
+  background: url("../images/header-bg.jpg") bottom center no-repeat;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
 }
-
-    /* 1.1 Logo Area */
-    .logo-area {
-    float:left;
-    }
-    /* 1.2 Nav Menu */
-    header .menu-area {
-        overflow: hidden;
-        font-size: 1em;
-    }
-    header .menu-area ul {
-        list-style: none;
-        text-align: right;
-    }
-    header .menu-area ul li {
-        padding: 0 1.125em;
-        display: inline-block;
-    }
-    header .menu-area ul li a{
-        text-decoration: none;
-        color: white;
-        font-family: 'gb';
-        transition: 400ms;
-    }
-    header .menu-area ul li a:hover {
-        color: #e4d2a6;
-    }
-    /* 1.3 Heading Area */
-    header .heading {
-        margin-top: 13em;
-        margin-bottom: 14em;
-    }
-    header .heading h2 {
-        font-family: 'mr';
-    font-size: 3em;
-    text-align: center;
-    }
-    header .heading p {
-        font-family: 'mr';
-        font-size: 1em;
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-    }
-    /* 1.4 Angle Down icon */
-    header .arrow-down {
-        text-align: center;
-    }
-    header .arrow-down i {
-        color: white;
-        font-size: 1.5rem;
-        border: 0.1rem solid white;
-        height: 1.5rem;
-        width: 1.5rem;
-        border-radius: 50%;
-        transition: 300ms;
-    }
-    header .arrow-down i:hover {
-        color: #e4d2a6;
-        border-color: #e4d2a6;
-    }
+header .container {
+  min-height: 90vh;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 1.1 Logo Area */
+.logo-area {
+  float: left;
+}
+/* 1.2 Nav Menu */
+header .menu-area {
+  overflow: hidden;
+  font-size: 1em;
+}
+header .menu-area ul {
+  list-style: none;
+  text-align: right;
+}
+header .menu-area ul li {
+  padding: 0 1.125em;
+  display: inline-block;
+}
+header .menu-area ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "gb";
+  transition: 400ms;
+}
+header .menu-area ul li a:hover {
+  color: #e4d2a6;
+}
+/* 1.3 Heading Area */
+header .heading h2 {
+  font-family: "mr";
+  font-size: 3em;
+  text-align: center;
+}
+header .heading p {
+  font-family: "mr";
+  font-size: 1em;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1em;
+  color: rgb(214, 214, 214);
+}
+/* 1.4 Angle Down icon */
+header .arrow-down {
+  text-align: center;
+}
+header .arrow-down i {
+  color: white;
+  font-size: 1.5rem;
+  border: 0.1rem solid white;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  transition: 300ms;
+}
+header .arrow-down i:hover {
+  color: #e4d2a6;
+  border-color: #e4d2a6;
+}
 /* 1. Header Area Ends */
 
 /* 2. Sorting Area Starts */
 .sorting-area {
-    overflow: hidden;
-    background-color: #f5f6f7;
-    text-transform: uppercase;
-    color: #333333;
-    font-family: 'gb';
-    padding-top: 4em;
-    padding-bottom: 3em;
+  overflow: hidden;
+  background-color: #f5f6f7;
+  text-transform: uppercase;
+  color: #333333;
+  font-family: "gb";
+  padding-top: 4em;
+  padding-bottom: 3em;
 }
 
-    /* 2.1 Checkbox Area */
-    .sorting-area .checkbox-area {
-        display: inline;
-    }
-    .sorting-area .checkbox-area form label {
-        padding:.125em 2em .175em 2em;
-        float: left;
-        overflow: hidden;
-    }
-    /* 2.2 All Products Area */
-    .sorting-area .all-products-area {
-        text-align: right;
-    }
-    .sorting-area .all-products-area a {
-        text-decoration: none;
-        color: #fff;
-        background-color: #aa9b77;
-        padding: 1.25em 2em;
-        border-radius: 0.25em;
-        transition: 300ms;
-    }
-    .sorting-area .all-products-area a:hover {
-        background-color: #64583a;
-    }
+/* 2.1 Checkbox Area */
+.sorting-area .checkbox-area {
+  display: inline;
+}
+.sorting-area .checkbox-area form label {
+  padding: 0.125em 2em 0.175em 2em;
+  float: left;
+  overflow: hidden;
+}
+/* 2.2 All Products Area */
+.sorting-area .all-products-area {
+  text-align: right;
+}
+.sorting-area .all-products-area a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #aa9b77;
+  padding: 1.25em 2em;
+  border-radius: 0.25em;
+  transition: 300ms;
+}
+.sorting-area .all-products-area a:hover {
+  background-color: #64583a;
+}
 /* 2. Sorting Area Ends */
 
 /* 3. Products Area Starts */
 section.products-area {
-    font-family: 'mr';
-    text-transform: uppercase;
-    margin: 6em 0;
+  font-family: "mr";
+  text-transform: uppercase;
+  margin: 6em 0;
 }
 
-    /* 3.1 Men Section */
-    section.products-area .men-section {
-        display: grid;
-        grid-template-columns: 7% 93%;
-        justify-content: center;
-        margin-bottom: 3em;
-    }
-    section.products-area hr {
-        border-width: .15em;
-        border-style: solid;
-        border-color: #ccc;
-        margin: auto 0;
-    }
-    section.products-area p,
-    section.products-area pre a {
-        font-family: 'gb';
-        overflow: hidden;
-        color: #ad9e7b;
-        text-decoration: none;
-    }
-    section.products-area .men-navigation {
-        text-align: right;
-    }
-    /* 3.2 Women Section */
-    section.products-area .women-section h3{
-        text-align: right;
-    }
-    section.products-area .women-section {
-        display: grid;
-        grid-template-columns: 90% 10%;
-        justify-content: center;
-        margin-top: 6em;
-        margin-bottom: 3em;
-    }
+/* 3.1 Men Section */
+section.products-area .men-section {
+  display: grid;
+  grid-template-columns: 7% 93%;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+section.products-area hr {
+  border-width: 0.15em;
+  border-style: solid;
+  border-color: #ccc;
+  margin: auto 0;
+}
+section.products-area p,
+section.products-area pre a {
+  font-family: "gb";
+  overflow: hidden;
+  color: #ad9e7b;
+  text-decoration: none;
+}
+section.products-area .men-navigation {
+  text-align: right;
+}
+/* 3.2 Women Section */
+section.products-area .women-section h3 {
+  text-align: right;
+}
+section.products-area .women-section {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  justify-content: center;
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
 
-        /* Product Card Design */
-        .size {grid-area: size;}
-        .product { grid-area: product; height: 13em; display: grid; place-items: center;}
-        .product-name {grid-area: product-name; color: #aa9b77;}
-        .product-price {grid-area: product-price; text-align: right;}
-        section.products-area .card {
-            display: grid;
-            grid-template-areas:
-            'size size'
-            'product product'
-            'product-name product-price';
-            grid-gap: 1.5em;
-            background-color: #f5f6f7;
-            padding: 1.25em;
-            margin-top: 4em;
-            cursor: pointer;
-            border: transparent solid 0.5em;
-            transition: 300ms;
-        }
-        section.products-area .card:hover {
-            border: #aa9b77 solid 0.5em;
-            border-radius: 0.225em;
-        }
-        .product img {
-            height: 10em;
-        }
+/* Product Card Design */
+.size {
+  grid-area: size;
+}
+.product {
+  grid-area: product;
+  height: 13em;
+  display: grid;
+  place-items: center;
+}
+.product-name {
+  grid-area: product-name;
+  color: #aa9b77;
+}
+.product-price {
+  grid-area: product-price;
+  text-align: right;
+}
+section.products-area .card {
+  display: grid;
+  grid-template-areas:
+    "size size"
+    "product product"
+    "product-name product-price";
+  grid-gap: 1.5em;
+  background-color: #f5f6f7;
+  padding: 1.25em;
+  margin-top: 4em;
+  cursor: pointer;
+  border: transparent solid 0.5em;
+  transition: 300ms;
+}
+section.products-area .card:hover {
+  border: #aa9b77 solid 0.5em;
+  border-radius: 0.225em;
+}
+.product img {
+  height: 10em;
+}
 
-        /* Card-Container */
-        section.products-area .card-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-gap: 3em;
-        }
+/* Card-Container */
+section.products-area .card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+}
 /* 3. Products-Area Ends */
 
 /* 4. About Us Area Starts */
 .about-area {
-    padding: 3em 5%;
-    background-color: #b5a580;
+  padding: 3em 5%;
+  background-color: #b5a580;
 }
 .about-area fieldset {
-    padding: 2em 15%;
-    border: 0.125em solid #918363;
+  padding: 2em 15%;
+  border: 0.125em solid #918363;
 }
 .about-area fieldset legend {
-    color: #918363;
-    font-size: 1.25em;
-    font-family: 'gb';
-    margin: 0 auto;
-    padding: 0 .5em;
-    text-transform: uppercase;
+  color: #918363;
+  font-size: 1.25em;
+  font-family: "gb";
+  margin: 0 auto;
+  padding: 0 0.5em;
+  text-transform: uppercase;
 }
 .about-area fieldset p {
-    font-size: 1em;
-    font-family: 'gb';
-    text-align: center;
+  font-size: 1em;
+  font-family: "gb";
+  text-align: center;
 }
 /* 4. About Us Area Ends */
 
 /* 5. Footer Area Starts */
 footer {
-    color: white;
+  color: white;
 }
-footer h4{
-    font-family: 'gb';
-    font-size: 1em;
+footer h4 {
+  font-family: "gb";
+  font-size: 1em;
 }
 
-    /* 5.1 Advertisement Area Starts */
-    footer .advertisement-area {
-        background-color: #535253;
-        overflow: hidden;
-        padding: 1.5em 0;
-    }
-    footer .advertisement-area i {
-        float: left;
-        color: #3e3e3e;
-        font-size: 1.5em;
-    }
-    footer .advertisement-area h4 {
-        overflow: hidden;
-        margin-left: 2.25em;
-        position: relative;
-        top: 0.125em;
-    }
-    /* 5.1 Advertisement Area Ends */
+/* 5.1 social Area Starts */
+footer .social-area {
+  background-color: #535253;
+  overflow: hidden;
+  padding: 1.5em 0;
+}
+footer .social-area i {
+  float: left;
+  color: #3e3e3e;
+  font-size: 1.5em;
+}
+footer .social-area h4 {
+  overflow: hidden;
+  margin-left: 2.25em;
+  position: relative;
+  top: 0.125em;
+}
+/* 5.1 social Area Ends */
 
-    /* 5.2 Footer Main Area Starts */
-    footer .main-area {
-        background-color: #424242;
-        padding: 9em 0 3em 0;
-        overflow: hidden;
-    }
-        /* 5.2.1 Credits Area */
-        footer .main-area .description {
-            float: left;
-            width: 50%;
-            text-transform: uppercase;
-            font-family: 'gb';
-        }
-        footer .main-area .description h3 {
-            font-size: 1.25em;
-            margin-bottom: 1em;
-        }
-        footer .main-area .description p {
-            font-size: .75em;
-            line-height: 1.5em;
-            width: 75%;
-            margin-bottom: 3em;
-        }
+/* 5.2 Footer Main Area Starts */
+footer .main-area {
+  background-color: #424242;
+  padding: 9em 0 3em 0;
+  overflow: hidden;
+}
+/* 5.2.1 Credits Area */
+footer .main-area .description {
+  float: left;
+  width: 50%;
+  text-transform: uppercase;
+  font-family: "gb";
+}
+footer .main-area .description h3 {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+footer .main-area .description p {
+  font-size: 0.75em;
+  line-height: 1.5em;
+  width: 75%;
+  margin-bottom: 3em;
+}
 
-        /* 5.2.2 Credits Area */
-        footer .main-area .credits {
-            overflow: hidden;
-            text-align: right;
-            position: relative;
-            top: 2em;
-        }
-        footer .main-area .credits p {
-            font-size: 1em;
-            color: #aa9b77;
-            padding: 0 0 1em 0;
-            font-family: 'mr';
-            text-transform: uppercase;
-        }
-        footer .main-area .credits a {
-            color: white;
-            text-decoration: none;
-            padding-right: 0.25em;
-            padding-left: 0.25em;
-        }
-        footer .main-area .credits a:last-child {
-            padding-right: 0;
-        }
-        footer .main-area .credits h4 {
-            padding: 0 0 5em 0;
-        }
+/* 5.2.2 Credits Area */
+footer .main-area .credits {
+  overflow: hidden;
+  text-align: right;
+  position: relative;
+  top: 2em;
+}
+footer .main-area .credits p {
+  font-size: 1em;
+  color: #aa9b77;
+  padding: 0 0 1em 0;
+  font-family: "mr";
+  text-transform: uppercase;
+}
+footer .main-area .credits a {
+  color: white;
+  text-decoration: none;
+  padding-right: 0.25em;
+  padding-left: 0.25em;
+}
+footer .main-area .credits a:last-child {
+  padding-right: 0;
+}
+footer .main-area .credits h4 {
+  padding: 0 0 5em 0;
+}
 
 /* Responsive Design */
 /* Tablets */
 @media only screen and (max-width: 992px) {
-    .container {
-        width:90%;
-    }
-    /* 1. Heading Area */
-    header .heading p {
-        width: 100%;
-    }
+  .container {
+    width: 90%;
+  }
+  /* 1. Heading Area */
+  header .heading p {
+    width: 80%;
+    line-height: 1.5em;
+  }
 
-    /* Menu Responsive */
-    header .menu-area ul li {
-        display: block;
-        margin: 0.5em 0;
-        padding-right: .5em;
-        border-right: .25rem white solid;
-    }
-    header .menu-area ul {
-        position: absolute;
-        right: 5%;
-    }
+  /* Menu Responsive */
+  header .menu-area ul li {
+    display: block;
+    margin: 0.5em 0;
+    padding-right: 0.5em;
+    border-right: 0.25rem white solid;
+  }
+  header .menu-area ul {
+    position: absolute;
+    right: 5%;
+  }
 
-    /* 2. Sorting-Area */
-    .sorting-area .checkbox-area {
-        display: block;
-        overflow: hidden;
-    }
-    .sorting-area .checkbox-area span {
-        font-size: 0.75em;
-    }
-    .sorting-area .checkbox-area {
-        width: 23.4em;
-        margin: 0 auto;
-    }
-    .sorting-area .all-products-area {
-        text-align: center;
-        margin-top: 2.5rem;
-        margin-bottom: 1.5rem;
-    }
+  /* 2. Sorting-Area */
+  .sorting-area .checkbox-area {
+    display: block;
+    overflow: hidden;
+  }
+  .sorting-area .checkbox-area span {
+    font-size: 0.75em;
+  }
+  .sorting-area .checkbox-area {
+    width: 23.4em;
+    margin: 0 auto;
+  }
+  .sorting-area .all-products-area {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
 
-    /* 3. Products-Area*/
-    section.products-area .card-container {
-        grid-template-columns: 1fr 1fr;
-    }
+  /* 3. Products-Area*/
+  section.products-area .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    /* 4. Footer Area */
-    footer .advertisement-area,
-    footer .main-area .description,
-    footer .main-area .credits {
-        text-align: center;
-    }
-    footer .advertisement-area i,
-    footer .main-area .description,
-    footer .main-area .description p {
-        float:none;
-        width: 100%
-    }
-    /* 5.1 Advertisement Area */
-    footer .advertisement-area h4 {
-        margin-left: 0;
-    }
-    footer .advertisement-area i {
-        margin-bottom: 1em;
-    }
-    footer .advertisement-area h4 {
-        top: 0;
-    }
+  /* 4. Footer Area */
+  footer .social-area,
+  footer .main-area .description,
+  footer .main-area .credits {
+    text-align: center;
+  }
+  footer .social-area i,
+  footer .main-area .description,
+  footer .main-area .description p {
+    float: none;
+    width: 100%;
+  }
+  /* 5.1 social Area */
+  footer .social-area h4 {
+    margin-left: 0;
+  }
+  footer .social-area i {
+    margin-bottom: 1em;
+  }
+  footer .social-area h4 {
+    top: 0;
+  }
 }
 /* Smart Phones */
 @media only screen and (max-width: 750px) {
-    body {
-        font-size: 90%;
-    }
+  body {
+    font-size: 90%;
+  }
 
-    header span{
-        display: block;
-    }
+  header span {
+    display: block;
+  }
 
-    /* 2. Sorting-Area */
-    section.products-area .card-container {
-        grid-template-columns: 1fr;
-    }
-    section.products-area .men-section {
-        grid-template-columns: 15% 85%;
-    }
-    section.products-area .women-section {
-        grid-template-columns: 75% 25%;
-    }
+  /* 2. Sorting-Area */
+  section.products-area .card-container {
+    grid-template-columns: 1fr;
+  }
+  section.products-area .men-section {
+    grid-template-columns: 15% 85%;
+  }
+  section.products-area .women-section {
+    grid-template-columns: 75% 25%;
+  }
 }
 /* Small Phones */
 @media only screen and (max-width: 500px) {
-    body {
-        font-size: 80%;
-    }
+  body {
+    font-size: 80%;
+  }
+}
+
+/* Larger Screens */
+@media only screen and (min-width: 1600px) {
+  body {
+    font-size: 120%;
+  }
+  header .heading p {
+    width: 40%;
+  }
 }
