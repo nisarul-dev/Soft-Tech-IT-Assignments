@@ -368,6 +368,9 @@ footer .main-area .credits h4 {
     width: 90%;
   }
   /* 1. Heading Area */
+  header .container {
+    width: 80%;
+  }
   header .heading p {
     width: 80%;
     line-height: 1.5em;
