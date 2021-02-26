@@ -7,7 +7,7 @@ Personal Website: https://www.nisarul.com
 > ASSIGNMENTS with LIVE LINK :
 
 Assignment 1 : Class-1 (Writting Paragraph)
-https://softtech-it.nisarul.com/assignment-1/
+https://nisarul-media.github.io/Soft-Tech-IT-Assignments
 
 Assignment 2: Class-2 (Using HTML Tags and Images)
-https://softtech-it.nisarul.com/assignment-2/
+https://nisarul-media.github.io/Soft-Tech-IT-Assignments
