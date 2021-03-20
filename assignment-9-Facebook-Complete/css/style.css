@@ -19,6 +19,7 @@
 
 .container {
     width: 90%;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -144,7 +145,7 @@
     color: #1F2F45;
     font-weight: normal;
     font-size: 16px;
-    
+
 }
 
 .mobile-text p {
@@ -268,7 +269,7 @@
     color: #5770BA;
     font-size: 12px;
     float: left;
-    
+
 }
 
 .footer-area ul li {
@@ -323,44 +324,44 @@
     .mobile-area {
         background-size: contain;
     }
-    
+
     /*** Main Area End ***/
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 968px) {
     /*** Header Area Start ***/
     .header .logo-area {
         float: none;
         padding: 15px 0 20px;
         text-align: center;
-        
+
     }
 
     .login-area {
         width: 308px;
         margin: auto;
     }
-    
+
     .login-area .submit-area input{
         width: 303px;
     }
     /*** Header Area End ***/
-    
+
     /*** Main Area Start ***/
     .mobile-area {
         float: none;
         width: 100%;
         min-height: 250px;
     }
-    
+
     .signup-area {
         width: 100%;
     }
-    
+
     /*** Main Area End ***/
-    
+
     /*** Footer Area start ***/
-    
+
     .footer-area .footer-bottom li {
         display: none;
     }
@@ -368,7 +369,7 @@
 
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 600px) {
     /*** Header Area Start ***/
     .login-area form {
         float: none;
@@ -394,14 +395,14 @@
         width: 100%;
         margin: auto;
     }
-    
+
     /*** Header Area End ***/
-    
+
     /*** Main Area Start ***/
     .mobile-area {
         min-height: 200px;
     }
-    
+
     /*** Main Area End ***/
 }
 
