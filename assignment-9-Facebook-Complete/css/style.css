@@ -328,7 +328,7 @@
     /*** Main Area End ***/
 }
 
-@media all and (max-width: 968px) {
+@media all and (max-width: 768px) {
     /*** Header Area Start ***/
     .header .logo-area {
         float: none;
@@ -369,7 +369,7 @@
 
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 400px) {
     /*** Header Area Start ***/
     .login-area form {
         float: none;
